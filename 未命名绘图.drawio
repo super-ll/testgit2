@@ -115,35 +115,32 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="6F4WIK_tuikPwrHk3wV7-55" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="6F4WIK_tuikPwrHk3wV7-28" target="6F4WIK_tuikPwrHk3wV7-33">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="6F4WIK_tuikPwrHk3wV7-28" value="work_order_check" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="810" y="580" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="6F4WIK_tuikPwrHk3wV7-29" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="6F4WIK_tuikPwrHk3wV7-28" target="6F4WIK_tuikPwrHk3wV7-30">
+        <mxCell id="6F4WIK_tuikPwrHk3wV7-29" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="6F4WIK_tuikPwrHk3wV7-28" target="6F4WIK_tuikPwrHk3wV7-30">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="970" y="810" as="sourcePoint" />
             <mxPoint x="1020" y="760" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="6F4WIK_tuikPwrHk3wV7-30" value="order_no" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="650" y="420" width="120" height="80" as="geometry" />
+          <mxGeometry x="670" y="710" width="120" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="6F4WIK_tuikPwrHk3wV7-31" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="6F4WIK_tuikPwrHk3wV7-28" target="6F4WIK_tuikPwrHk3wV7-32">
+        <mxCell id="6F4WIK_tuikPwrHk3wV7-31" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="6F4WIK_tuikPwrHk3wV7-28" target="6F4WIK_tuikPwrHk3wV7-32">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="1000" y="580" as="sourcePoint" />
             <mxPoint x="1180" y="760" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="6F4WIK_tuikPwrHk3wV7-32" value="check_result:&lt;div&gt;1通过，0驳回，3不完全符合标准，部分退款&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="810" y="420" width="120" height="80" as="geometry" />
+          <mxGeometry x="810" y="710" width="120" height="80" as="geometry" />
         </mxCell>
         <mxCell id="6F4WIK_tuikPwrHk3wV7-33" value="check_option&lt;br&gt;复核意见描述" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="960" y="420" width="120" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="6F4WIK_tuikPwrHk3wV7-34" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="6F4WIK_tuikPwrHk3wV7-28" target="6F4WIK_tuikPwrHk3wV7-33">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="850" y="590" as="sourcePoint" />
-            <mxPoint x="870" y="509" as="targetPoint" />
-          </mxGeometry>
+          <mxGeometry x="940" y="710" width="120" height="80" as="geometry" />
         </mxCell>
         <mxCell id="6F4WIK_tuikPwrHk3wV7-47" value="正常集图片" style="shape=cube;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;darkOpacity=0.05;darkOpacity2=0.1;" vertex="1" parent="1">
           <mxGeometry x="-40" y="740" width="120" height="80" as="geometry" />
