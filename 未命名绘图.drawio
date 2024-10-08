@@ -146,10 +146,21 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="6F4WIK_tuikPwrHk3wV7-47" value="正常集图片" style="shape=cube;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;darkOpacity=0.05;darkOpacity2=0.1;" vertex="1" parent="1">
-          <mxGeometry x="-160" y="510" width="120" height="80" as="geometry" />
+          <mxGeometry x="-40" y="740" width="120" height="80" as="geometry" />
         </mxCell>
         <mxCell id="6F4WIK_tuikPwrHk3wV7-48" value="异常集图片" style="shape=cube;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;darkOpacity=0.05;darkOpacity2=0.1;" vertex="1" parent="1">
-          <mxGeometry x="-160" y="610" width="120" height="80" as="geometry" />
+          <mxGeometry x="-40" y="840" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="6F4WIK_tuikPwrHk3wV7-49" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0;entryDx=120;entryDy=50;entryPerimeter=0;" edge="1" parent="1" source="6F4WIK_tuikPwrHk3wV7-16" target="6F4WIK_tuikPwrHk3wV7-47">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6F4WIK_tuikPwrHk3wV7-50" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0;entryDx=120;entryDy=50;entryPerimeter=0;" edge="1" parent="1" source="6F4WIK_tuikPwrHk3wV7-16" target="6F4WIK_tuikPwrHk3wV7-48">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6F4WIK_tuikPwrHk3wV7-51" value="1. 根据X\Y的order_id属性，分别查询正常集和异常集的服务工单前中后图片&lt;div&gt;2. 一项工单前中后图片url分别对应属性：&lt;span style=&quot;background-color: rgb(251, 251, 251); font-size: 12px; text-wrap: wrap;&quot;&gt;start_img、&lt;/span&gt;&lt;span style=&quot;background-color: rgb(251, 251, 251); font-size: 12px; text-wrap: wrap;&quot;&gt;img_url、&lt;/span&gt;&lt;span style=&quot;background-color: rgb(251, 251, 251); font-size: 12px; text-wrap: wrap;&quot;&gt;end_img&lt;/span&gt;&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="6F4WIK_tuikPwrHk3wV7-50">
+          <mxGeometry x="-0.44" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
