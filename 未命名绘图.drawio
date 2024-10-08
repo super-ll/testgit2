@@ -127,7 +127,7 @@
             <mxPoint x="1000" y="670" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="6F4WIK_tuikPwrHk3wV7-30" value="order_no" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="6F4WIK_tuikPwrHk3wV7-30" value="order_no&lt;div&gt;工单编号&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="650" y="620" width="120" height="80" as="geometry" />
         </mxCell>
         <mxCell id="6F4WIK_tuikPwrHk3wV7-31" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="6F4WIK_tuikPwrHk3wV7-28" target="6F4WIK_tuikPwrHk3wV7-32">
