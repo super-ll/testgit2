@@ -35,13 +35,49 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="6F4WIK_tuikPwrHk3wV7-2" value="work_order" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="350" y="380" width="120" height="60" as="geometry" />
+          <mxGeometry x="190" y="330" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="6F4WIK_tuikPwrHk3wV7-4" value="service_log" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="130" y="470" width="120" height="60" as="geometry" />
+          <mxGeometry x="200" y="450" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="6F4WIK_tuikPwrHk3wV7-5" value="work_order_check" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="350" y="520" width="120" height="60" as="geometry" />
+          <mxGeometry x="200" y="570" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="6F4WIK_tuikPwrHk3wV7-15" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="6F4WIK_tuikPwrHk3wV7-6" target="6F4WIK_tuikPwrHk3wV7-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6F4WIK_tuikPwrHk3wV7-6" value="work_order" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="650" y="210" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="6F4WIK_tuikPwrHk3wV7-7" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="6F4WIK_tuikPwrHk3wV7-6" target="6F4WIK_tuikPwrHk3wV7-8">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="840" y="440" as="sourcePoint" />
+            <mxPoint x="890" y="390" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6F4WIK_tuikPwrHk3wV7-8" value="service_id" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="520" y="50" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="6F4WIK_tuikPwrHk3wV7-9" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="6F4WIK_tuikPwrHk3wV7-6" target="6F4WIK_tuikPwrHk3wV7-10">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="870" y="210" as="sourcePoint" />
+            <mxPoint x="1050" y="390" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6F4WIK_tuikPwrHk3wV7-10" value="order_id" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="680" y="50" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="6F4WIK_tuikPwrHk3wV7-11" value="cext1&lt;br&gt;工单编号" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="830" y="50" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="6F4WIK_tuikPwrHk3wV7-12" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="6F4WIK_tuikPwrHk3wV7-6" target="6F4WIK_tuikPwrHk3wV7-11">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="720" y="220" as="sourcePoint" />
+            <mxPoint x="740" y="139" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6F4WIK_tuikPwrHk3wV7-13" value="check_status&lt;br&gt;工单复核状态：&lt;br&gt;1未复核，2已复核，3已抽查复核" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="980" y="50" width="120" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
