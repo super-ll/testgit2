@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36 Edg/129.0.0.0" version="24.7.17">
   <diagram name="第 1 页" id="xmvy1-ESeEZ3ZNPqH_cW">
-    <mxGraphModel dx="1365" dy="788" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2192" dy="788" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -110,7 +110,7 @@
         <mxCell id="6F4WIK_tuikPwrHk3wV7-43" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="6F4WIK_tuikPwrHk3wV7-28" target="6F4WIK_tuikPwrHk3wV7-16">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="6F4WIK_tuikPwrHk3wV7-45" value="1. 根据A的所有cext1属性，查找与order_no匹配的项&lt;div&gt;2. 使用查询结果中的check_result对集合A分类&lt;/div&gt;&lt;div&gt;3. check_result=1归入正常集；check_result=0or3归入异常集&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="6F4WIK_tuikPwrHk3wV7-43">
+        <mxCell id="6F4WIK_tuikPwrHk3wV7-45" value="1. 根据A的所有cext1属性，查找与order_no匹配的项&lt;div&gt;2. 使用查询结果中的check_result将集合A划分为XY两部分&lt;/div&gt;&lt;div&gt;3. check_result=1归入正常集X；check_result=0or3归入异常集Y&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="6F4WIK_tuikPwrHk3wV7-43">
           <mxGeometry x="0.0167" y="3" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
@@ -144,6 +144,12 @@
             <mxPoint x="850" y="590" as="sourcePoint" />
             <mxPoint x="870" y="509" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="6F4WIK_tuikPwrHk3wV7-47" value="正常集图片" style="shape=cube;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;darkOpacity=0.05;darkOpacity2=0.1;" vertex="1" parent="1">
+          <mxGeometry x="-160" y="510" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="6F4WIK_tuikPwrHk3wV7-48" value="异常集图片" style="shape=cube;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;darkOpacity=0.05;darkOpacity2=0.1;" vertex="1" parent="1">
+          <mxGeometry x="-160" y="610" width="120" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
